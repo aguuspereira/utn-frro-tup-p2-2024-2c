@@ -1,0 +1,37 @@
+<!-- 
+ 
+3. Incluye en una página la reproducción de un archivo de audio mp3, haciendo que cuando termine, vuelva a reproducirse.
+
+4. Agrega en la página anterior el codigo necesario para reproducir un archivo de video.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PracticaDos</title>
+  </head>
+  <body>
+    <h1>Reproductor de sonidos y videos</h1>
+    <fieldset>
+      <legend>Audio</legend>
+
+      <audio
+        controls
+        loop
+        src="/Practica02-HTML/audio/nightfall-future-bass-music-228100.mp3"
+      ></audio>
+    </fieldset>
+    <fieldset>
+      <legend>Video</legend>
+      <video
+        controls
+        autoplay
+        loop
+        src="./audio/183960-872226574_medium.mp4"
+      ></video>
+    </fieldset>
+  </body>
+</html>
