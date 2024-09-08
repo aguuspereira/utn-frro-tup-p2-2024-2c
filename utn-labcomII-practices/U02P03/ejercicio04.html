@@ -1,0 +1,28 @@
+<!-- 
+4. Confeccione un formulario que solicite el ingreso de un mail, una clave y
+luego muestre una serie de títulos de películas con su respectivo
+checkbox. Disponer también del botón de tipo submit para el envío de
+datos al servidor. 
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 04</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="enviar.php" method="post">
+      <label for="mail">Correo electrónico:</label>
+      <input type="email" id="mail" name="mail" required /><br /><br />
+      <label for="clave">Clave:</label>
+      <input type="password" id="clave" name="clave" required /><br /><br />
+      <h2>Películas</h2>
+      <input type="checkbox" id="check1" name="check1" value="La" />
+      <label for="check1">La</label>
+      <input type="checkbox" id="check2" name="check2" value="La" />
+      <label for="check2">La</label>
+    </form>
+  </body>
+</html>
